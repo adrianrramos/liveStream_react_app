@@ -6,7 +6,7 @@
       "id": 5
     },
     {
-      "title": "Stream with userid",
+      "title": "Stream with userid [edit with PATCH request]",
       "description": "this stream was created after we added the feature to associate streams with user ids",
       "userId": "108338978890458596358",
       "id": 6
