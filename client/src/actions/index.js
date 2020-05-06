@@ -38,7 +38,7 @@ export const createStream = formValues => async (dispatch, getState) => {
 
     dispatch({ type: CREATE_STREAM, payload: response.data });
     // Add Programmatic Navigation to send user back to index route
-    history.push('/');
+    history.push("/");
 };  
  
 // EDIT route
@@ -46,6 +46,7 @@ export const editStream = (id, formValues) => async dispatch => {
     const response = await streams.put(`/streams/${id}`, formValues);
 
     dispatch({ type: EDIT_STREAM, payload: response.data });
+    history.push("/");
 };
 
 

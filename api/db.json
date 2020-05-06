@@ -1,9 +1,8 @@
 {
   "streams": [
     {
-      "title": "Stream with userid",
+      "title": "Stream with userid[debugg edit ]",
       "description": "this stream was created after we added the feature to associate streams with user ids",
-      "userId": "108338978890458596358",
       "id": 5
     },
     {
@@ -31,21 +30,18 @@
       "id": 9
     },
     {
-      "title": "using a different account",
+      "title": "edited this stream",
       "description": "hi",
-      "userId": "108494357698241449973",
       "id": 10
     },
     {
-      "title": "different account",
+      "title": "different account[debugg edit]",
       "description": "stream made with a second account",
-      "userId": "108494357698241449973",
       "id": 11
     },
     {
-      "title": "new create stream",
+      "title": "new create stream[edit bug]",
       "description": "this one is refactored",
-      "userId": "108494357698241449973",
       "id": 12
     }
   ]
