@@ -41,6 +41,12 @@
       "description": "stream made with a second account",
       "userId": "108494357698241449973",
       "id": 11
+    },
+    {
+      "title": "new create stream",
+      "description": "this one is refactored",
+      "userId": "108494357698241449973",
+      "id": 12
     }
   ]
 }
