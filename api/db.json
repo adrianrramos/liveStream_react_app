@@ -1,0 +1,46 @@
+{
+  "streams": [
+    {
+      "title": "Stream with userid",
+      "description": "this stream was created after we added the feature to associate streams with user ids",
+      "userId": "108338978890458596358",
+      "id": 5
+    },
+    {
+      "title": "Stream with userid",
+      "description": "this stream was created after we added the feature to associate streams with user ids",
+      "userId": "108338978890458596358",
+      "id": 6
+    },
+    {
+      "title": "Stream with userid",
+      "description": "this stream was created after we added the feature to associate streams with user ids",
+      "userId": "108338978890458596358",
+      "id": 7
+    },
+    {
+      "title": "testing history object",
+      "description": "adding programmatic navigation",
+      "userId": "108338978890458596358",
+      "id": 8
+    },
+    {
+      "title": "test again",
+      "description": "again test",
+      "userId": "108338978890458596358",
+      "id": 9
+    },
+    {
+      "title": "using a different account",
+      "description": "hi",
+      "userId": "108494357698241449973",
+      "id": 10
+    },
+    {
+      "title": "different account",
+      "description": "stream made with a second account",
+      "userId": "108494357698241449973",
+      "id": 11
+    }
+  ]
+}
