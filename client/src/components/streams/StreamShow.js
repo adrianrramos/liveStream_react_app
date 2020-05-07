@@ -3,7 +3,6 @@ import flv from 'flv.js';
 import { connect } from 'react-redux';
 import { fetchStream } from '../../actions';
 
-
 class StreamShow extends Component {
     constructor(props) {
         super(props);
@@ -15,7 +14,24 @@ class StreamShow extends Component {
         const { id } = this.props.match.params;
 
         this.props.fetchStream(id);
+        this.buidlPlayer();
 
+    };
+
+    componentDidUpdate() {
+        this.buidlPlayer();
+    }
+
+    componentWillUnmount() {
+        this.player.destroy();
+    }
+
+    buidlPlayer() {
+        if (this.player || !this.props.stream) {
+            return;
+        }
+
+        const { id } = this.props.match.params;
         this.player = flv.createPlayer({
             type: 'flv',
             url: `http://localhost:8000/live/${id}.flv`
